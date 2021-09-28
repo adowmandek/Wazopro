@@ -1,0 +1,147 @@
+#logo {
+    display: inline-block;
+    margin: 15px;
+    float: right;
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+  }
+  
+  #menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  }
+  body {
+
+    background-repeat: no-repeat;
+      background-image: url('https://images.unsplash.com/photo-1604328698692-f76ea9498e76?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    }
+    .dropbtn {
+        background-color: #ec270d;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #c02460;}
+  .button{width: 50%;}
+  .container {
+    height: 200px;
+    position: relative;
+  }
+   .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .vertical-center {
+  margin: 0;
+  margin-left: 20px;
+  position: absolute;
+  /* border: 3px solid green; */
+  top: 20%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /* text-align: center; */
+}
+html {
+    scroll-behavior: smooth;
+  }
+  #section1 {
+    height: 100px;
+    /* background-color: rgb(184, 149, 155); */
+  }
+  #section2 {
+    height: 350px;
+    background-color: rgb(204, 162, 115);
+    font-size: 100%;
+    text-indent: 40%;
+    text-size-adjust: 30px;
+   font-size: 40px;
+   color: brown;
+  }
+  .center {
+    margin: auto;
+    width: 80%;
+    padding: 40px;
+    padding-bottom: 30%;
+
+  }
+  p {
+  font-size: 30px;
+  /* text-align: center; */
+}
+
+p2 {
+  font-size: 20px;
+  text-align: center;
+  font-style: inherit;
+  font-style: italic;
+
+}
+
+button{
+  -moz-box-align: center;
+
+}
+div.a {
+    text-indent: 10px;
+  }
+
+  div.b {
+    text-indent: -2em;
+  }
+  div.c {
+    text-indent: 10%;
+  }
+
+  div.w{
+   
+
+    color: black;
+  
+    display: table-cell;
+   
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+    vertical-align: middle;
+  }
+
+  div .x{
+    text-align: center;
+    margin-bottom: 90%;
+    font-family: fantasy;
+    color: rgb(225, 65, 140);
+  }
+
+cards{
+  display: flex;
+  color: black;
+}
+
